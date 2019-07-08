@@ -1,0 +1,66 @@
+/**********************************************
+Blog Styles
+***********************************************/
+
+.block_text_2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  font-size: 16px;
+}
+
+.blogMeta {
+  color: gray;
+  font-size: 14px;
+}
+
+.code_blog_title {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #3e4444;
+}
+
+.article_title {
+  background: #3e4444;
+  padding: 1px 10px;
+  border-radius: 2px;
+  color: white;
+}
+
+.code_petzhold {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #1a1a1a;
+  max-width: 370px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.code_petzhold_book {
+  display: auto;
+  width: 350px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.intro a:visited {
+  color: #0000ee;
+}
+
+.blog_title {
+  color: white;
+  background: #3e4444;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  text-align: center;
+  font-size: 24px;
+}

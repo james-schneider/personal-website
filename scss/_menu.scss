@@ -75,7 +75,7 @@
   }
 
   //Branding Side
-  &-branding {
+  /*&-branding {
     background: $primary-color;
     transform: translate3d(0, 100%, 0);
     @include easeOut;
@@ -92,7 +92,7 @@
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
-  }
+  }*/
 
   .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -126,7 +126,7 @@
 }
 
 // Delay each nav item slide by 0.1s
-@for $x from 1 through 4 {
+@for $x from 1 through 5 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
