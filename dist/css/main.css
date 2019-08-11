@@ -260,6 +260,11 @@ main {
       border-color: #008744;
       transition: all 0.7s ease-out; }
 
+.milligan-project img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -288,6 +293,18 @@ main {
     background: #008744;
     color: #fff; }
 
+.project-btn {
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0; }
+  .project-btn:hover {
+    background: #008744;
+    color: #fff;
+    cursor: pointer; }
+
 .btn-dark {
   background: black;
   color: #fff; }
@@ -314,6 +331,8 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main .block_text_2 {
+      text-align: left; }
   ul.menu-nav {
     float: none;
     width: 100%;

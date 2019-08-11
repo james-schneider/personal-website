@@ -128,6 +128,12 @@ main {
   }
 }
 
+.milligan-project img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Contact Page
 .boxes {
   display: flex;
@@ -163,6 +169,20 @@ main {
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
+  }
+}
+
+.project-btn {
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+    cursor: pointer;
   }
 }
 
